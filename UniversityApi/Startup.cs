@@ -31,7 +31,7 @@ namespace UniversityApi
 
             services.AddDbContext<UniversityDbContext>(options => options.UseSqlServer(
                 @"Data Source=DESKTOP-R12URAM\SQLEXPRESS;Initial Catalog=UniversityOb;User ID=luismany;Password=12345;Application Name=UniversityOb")
-                //Data=> Data.MigrationsAssembly("DataAcces")
+                //Data=> Data.MigrationsAssembly("Data")
                 );
         }
 
